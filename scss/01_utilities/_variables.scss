@@ -1,0 +1,16 @@
+
+$border-whith:(
+  "s"  : 3px,
+  "m"  : 5px,
+  "l"  : 7px
+);
+
+
+$colors: (
+  "azul"         : rgb(0, 153, 255),
+  "azulOscuro"   : darken( rgb(0, 153, 255), 30%),
+  "blanco"       : white,
+  "verde"        : rgb(103, 221, 109),
+  "verdeOscuro"  : darken( rgb(103, 221, 109), 30%)
+);
+

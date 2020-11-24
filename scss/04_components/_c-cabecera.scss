@@ -1,0 +1,12 @@
+.c-cabecera {
+    grid-area: cabecera;
+    background-color: getColor("azul");
+    color: getColor("blanco");
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    // border-width: getBorderWidth("s");
+    // border-style: solid;
+    // border-color: getColor("azulOscuro");
+
+}

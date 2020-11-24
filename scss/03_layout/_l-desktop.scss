@@ -1,0 +1,14 @@
+.l-desktop {
+    display: grid;
+    grid-template-areas:
+        "cabecera cabecera cabecera cabecera cabecera"
+        "left-Navigation content content content content"
+        "footer footer footer footer footer";
+
+    &--switch {
+        grid-template-areas:
+        "cabecera cabecera cabecera cabecera cabecera"
+        "content content content content left-Navigation"
+        "footer footer footer footer footer";
+    }
+}

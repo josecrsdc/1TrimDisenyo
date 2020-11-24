@@ -1,0 +1,22 @@
+.c-panel {
+    border-width: getBorderWidth("l");
+    border-style: solid;
+    border-color: getColor("azulOscuro");
+    margin: 10px;
+    padding: 20px;
+    max-width: 500px;
+    &__titulo {
+        text-decoration: underline;
+        font-weight: bold;
+        padding-bottom: 10px;
+        font-size: 20px;
+
+        &--sinSubrayar {
+            text-decoration: none;
+        }
+    }
+
+    &__contenido {
+        text-align: justify;
+    }
+}

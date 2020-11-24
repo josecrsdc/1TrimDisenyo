@@ -1,0 +1,8 @@
+.c-footer {
+    grid-area: footer;
+    background-color: getColor("verdeOscuro");
+    color: getColor("blanco");
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}

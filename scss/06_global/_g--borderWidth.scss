@@ -1,0 +1,5 @@
+@each $key in getBorderWidthKeys() {
+    .g--borderWidth-#{$key}{
+        border-width: getBorderWidth($key);
+    }
+}

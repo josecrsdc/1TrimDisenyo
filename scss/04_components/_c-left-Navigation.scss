@@ -1,0 +1,9 @@
+.c-left-Navigation {
+    grid-area: left-Navigation;
+    background-color: getColor("azulOscuro");
+    color: getColor("blanco");
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    height: 150px;
+}
